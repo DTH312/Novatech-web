@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>NovaTech - Đăng nhập</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .login-box { max-width: 400px; margin: 50px auto; padding: 40px 30px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; }
+        .login-box h2 { margin-bottom: 20px; text-transform: uppercase; color: var(--text-dark); }
+        .login-box input { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; outline: none; }
+        .login-box a.forgot { display: block; margin-bottom: 15px; color: var(--primary-color); font-size: 14px; text-align: right; }
+        .btn-login { width: 100%; padding: 12px; background: #111; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; }
+        .btn-login:hover { background: var(--primary-color); }
+        .register-link { margin-top: 15px; font-size: 14px; }
+        .register-link a { color: var(--primary-color); font-weight: bold; }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="top-header">
+            <a href="index.html" class="logo"><h1>NovaTech</h1></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm sản phẩm công nghệ...">
+                <button>Tìm kiếm</button>
+            </div>
+            <div class="header-actions">
+                <a href="login.html" class="action-item">
+                    <span>Đăng nhập</span>
+                </a>
+                <div class="action-item" id="cart-btn">
+                    <span>Giỏ hàng</span>
+                    <span class="cart-count">0</span>
+                    <div class="cart-dropdown" id="cart-dropdown">
+                        <p>Bạn chưa thêm sản phẩm</p>
+                        <div class="cart-btns">
+                            <button class="btn-view-cart">Xem Giỏ Hàng</button>
+                            <button class="btn-checkout">Thanh Toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <div class="category-menu">
+                    &#9776; Danh mục sản phẩm
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">TRANG CHỦ</a></li>
+                    <li><a href="products.html" class="">CỬA HÀNG</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a href="#">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lab.html" class="">LAB THỰC HÀNH</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <div class="login-box">
+            <h2>ĐĂNG NHẬP</h2>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Mật khẩu">
+            <a href="#" class="forgot">Quên mật khẩu?</a>
+            <button class="btn-login">Đăng nhập</button>
+            <div class="register-link">
+                Chưa có tài khoản? <a href="#">Đăng kí</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h2 style="color: var(--primary-color);">NOVATECH STORE</h2>
+                <p>Cửa hàng công nghệ, âm thanh & gaming gear chính hãng.</p>
+            </div>
+            <div>
+                <h3>Thông tin</h3>
+                <p>Địa chỉ: 180 Cao Lỗ, Phường 4, Quận 8, TP HCM</p>
+                <p>Email: support@novatech.edu.vn</p>
+                <p>Điện thoại: (028) 38 505 520</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NovaTech Store. Đồ án Website bán hàng - Developed by Sinh viên STU.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

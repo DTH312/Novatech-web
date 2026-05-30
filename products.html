@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>NovaTech - Cửa hàng</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="top-header">
+            <a href="index.html" class="logo"><h1>NovaTech</h1></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm sản phẩm công nghệ...">
+                <button>Tìm kiếm</button>
+            </div>
+            <div class="header-actions">
+                <a href="login.html" class="action-item">
+                    <span>Đăng nhập</span>
+                </a>
+                <div class="action-item" id="cart-btn">
+                    <span>Giỏ hàng</span>
+                    <span class="cart-count">0</span>
+                    <div class="cart-dropdown" id="cart-dropdown">
+                        <p>Bạn chưa thêm sản phẩm</p>
+                        <div class="cart-btns">
+                            <button class="btn-view-cart">Xem Giỏ Hàng</button>
+                            <button class="btn-checkout">Thanh Toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <div class="category-menu">
+                    &#9776; Danh mục sản phẩm
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="">TRANG CHỦ</a></li>
+                    <li><a href="products.html" class="active">CỬA HÀNG</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a href="#">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="lab.html" class="">LAB THỰC HÀNH</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <h2 class="section-title">Tất cả sản phẩm công nghệ</h2>
+        <div class="product-grid">
+            <!-- (Tương tự trang chủ, lặp lại các sản phẩm demo) -->
+            <div class="product-card"><a href="product-detail.html"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">META</span><h3 class="product-name">Kính Thực Tế Ảo Meta Quest 3 128GB</h3><p class="product-price">12,500,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">KEYCHRON</span><h3 class="product-name">Bàn phím cơ Custom Keychron Q1 Pro</h3><p class="product-price">4,200,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">SONY</span><h3 class="product-name">Tai nghe Bluetooth Sony WH-1000XM5</h3><p class="product-price">7,990,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">LG</span><h3 class="product-name">Màn hình LG UltraGear OLED</h3><p class="product-price">22,900,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">DJI</span><h3 class="product-name">Flycam DJI Mini 4 Pro</h3><p class="product-price">18,500,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">DEVIALET</span><h3 class="product-name">Loa Bluetooth Devialet Phantom I</h3><p class="product-price">85,000,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">SHURE</span><h3 class="product-name">Microphone Shure SM7B Studio</h3><p class="product-price">10,200,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+            <div class="product-card"><a href="#"><img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=300&q=80" class="product-img"><div class="product-info"><span class="product-brand">LOGITECH</span><h3 class="product-name">Chuột Không Dây MX Master 3S</h3><p class="product-price">2,490,000 đ</p><button class="btn-add-cart">Thêm vào giỏ</button></div></a></div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h2 style="color: var(--primary-color);">NOVATECH STORE</h2>
+                <p>Cửa hàng công nghệ, âm thanh & gaming gear chính hãng.</p>
+            </div>
+            <div>
+                <h3>Thông tin</h3>
+                <p>Địa chỉ: 180 Cao Lỗ, Phường 4, Quận 8, TP HCM</p>
+                <p>Email: support@novatech.edu.vn</p>
+                <p>Điện thoại: (028) 38 505 520</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NovaTech Store. Đồ án Website bán hàng - Developed by Sinh viên STU.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
